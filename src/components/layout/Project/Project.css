@@ -1,0 +1,130 @@
+.form-container {
+  height: auto;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  color: black;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  background-color: whitesmoke; /* Dark blue input background */
+  color: black;
+}
+
+.going {
+  margin-right: 10px;
+}
+
+.file-upload {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.upload-icon {
+  margin-right: 10px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.uploadpr {
+  background-color: blue;
+  color: white; /* Turquoise submit button */
+}
+
+.uploadpr:hover {
+  background-color: #030387ff; /* Darker turquoise on hover */
+}
+
+.cancel {
+  background-color: #e74c3c; /* Red cancel button */
+}
+
+.cancel:hover {
+  background-color: #d73a2e; /* Darker red on hover */
+}
+.file-upload {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.btn {
+  border: 2px solid gray;
+  color: gray;
+  background-color: white;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.upload-btn-wrapper input[type="file"] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+.upload-icon {
+  margin-right: 10px;
+  font-size: 24px;
+  color: black; /* Turquoise color */
+}
+.upload-btn-wrapper button:hover {
+  background-color: blue;
+}
+
+.drop-zone {
+  margin-left: 15px;
+  width: 90%;
+  border: 2px dashed black; /* Turquoise dashed border for drop zone */
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.drop-zone.active {
+  background-color: #f0f8ff; /* Light blue background for active drop zone */
+}
+
+.drop-zone input {
+  display: none;
+}
+.buttons {
+  margin-top: 10px;
+}
